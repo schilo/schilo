@@ -1,12 +1,22 @@
-rect(76, 45, 250, 300); // face
+var myInfo = {
+	name: "Schilosson",
+	hometown: "Orlando",
+	suitSize: "M",
+	suitStyle: [squared, squared, squared],
+	helmetStyle: [rounded, rounded, rounded],
+	suitColors: ["teal", "blue", "aqua"],
+	helmetColors: ["red", "#FF0000", "rgb(255,0,0)"],
+	signature: "Schilosson"
+};
 
-rect(126, 250, 152, 60); // mouth
+var reason = "I want to learn program because of cool animations.";
+var specialty = "I want to specialize in software program";
+var pseudocodeIs =
+	"a notation resembling a simplified programming language, used in program design";
 
-rect(140, 150, 30, 30); // left eye
-
-rect(240, 150, 30, 30); // right eye
-
-rect(175, 345, 50, 50); // neck
-
-// unibrow
-line(140, 129, 270,150);
+function lightboxFlipSwitch() {
+	// if variable switchDirection is equal to "on",
+	// set lightboxOn to true
+	// otherwise
+	// set lightboxOn to false
+}
